@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.main{
+    height: 300px;
+    width: 500px;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.main h1{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+.charcount{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.totalchar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.remchar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
